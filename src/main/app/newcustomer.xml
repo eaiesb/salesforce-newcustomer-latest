@@ -12,7 +12,6 @@ http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/jso
 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-current.xsd">
     <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="8081" doc:name="HTTP Listener Configuration"/>
     <sfdc:config name="Salesforce__Basic_Authentication" username="vijay.reddy1@eaiesb.com" password="Eaiesb@2019" securityToken="HYb9WUdRDx5atvugauxeBku6A" doc:name="Salesforce: Basic Authentication"/>
-    <context:property-placeholder location="${env}.properties"/>
     <flow name="newcustomerFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/onboardcustomer" allowedMethods="GET" doc:name="HTTP"/>
         <logger message="***************************************************************#[payload]" level="INFO" doc:name="Logger"/>
