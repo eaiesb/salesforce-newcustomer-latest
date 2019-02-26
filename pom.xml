@@ -28,8 +28,8 @@
 							       	<deploymentType>cloudhub</deploymentType>
 								  	<muleVersion>3.9.1</muleVersion> 
 								  	<username>srikanth_devops</username> 
-								  	<password>eaiesb123</password> 
-								  	<applicationName>salesforce123</applicationName>
+								  	<password>Eaiesb123</password> 
+								  	<applicationName>salesforce-new</applicationName>
 								  	<environment>Sandbox</environment> 
 								  	<uri>https://anypoint.mulesoft.com</uri>
 							          	<workerType>Micro</workerType>
