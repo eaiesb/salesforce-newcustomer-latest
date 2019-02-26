@@ -26,10 +26,10 @@
 							          <version>2.2.1</version>
 							          <configuration>
 							       	<deploymentType>cloudhub</deploymentType>
-								  	<muleVersion>${mule.version}</muleVersion> 
-								  	<username>${anypoint.username}</username> 
-								  	<password>${anypoint.password}</password> 
-								  	<applicationName>${application.name}</applicationName>
+								  	<muleVersion>3.9.1</muleVersion> 
+								  	<username>srikanth_devops</username> 
+								  	<password>eaiesb123</password> 
+								  	<applicationName>salesforce-newcustomer-newcode</applicationName>
 								  	<environment>Sandbox</environment> 
 								  	<uri>https://anypoint.mulesoft.com</uri>
 							          	<workerType>Micro</workerType>
